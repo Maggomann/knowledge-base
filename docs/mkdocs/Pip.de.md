@@ -11,6 +11,6 @@ tags:
 
 ## pip3
 
-```console
+```bash
 pip3 --version
 ```

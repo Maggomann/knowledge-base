@@ -5,6 +5,7 @@ language: de
 tags:
 - laravel
 - collection
+- mapWithKeys
 ---
 
 ```php

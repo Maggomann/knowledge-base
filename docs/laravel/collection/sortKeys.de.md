@@ -5,6 +5,7 @@ language: de
 tags:
 - laravel
 - collection
+- sortKeys
 ---
 
 ```php
@@ -19,7 +20,7 @@ tags:
 		'key_5' => 'value_5',
 	];
 
-	$result = collect($exampleEntries)->sortKeys()->dump();
+	$result = collect($exampleEntries)->sortKeys()->toArray();
 	
 	$result = [
 		"key_1" => "value_1",

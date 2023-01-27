@@ -11,30 +11,30 @@ tags:
 
 ## mkdocs help
 
-```console
+```bash
 mkdocs --help
 ```
 
 ## mkdocs new
 
-```console
+```bash
 mkdocs new
 ```
 
 ## mkdocs build
 
-```console
+```bash
 mkdocs build
 ```
 
 ## mkdocs serve
 
-```console
+```bash
 mkdocs serve
 ```
 
 ### mkdocs serve --livereload
 
-```console
+```bash
 mkdocs serve --livereload
 ```

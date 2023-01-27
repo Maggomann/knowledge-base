@@ -1,10 +1,10 @@
 ---
-category: pest
-sub_category_1: composer
+category: composer
+sub_category_1: pest
 language: de
 tags:
-- pest
 - composer
+- pest
 ---
 
 ## composer.json

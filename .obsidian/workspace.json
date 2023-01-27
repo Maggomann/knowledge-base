@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d8c77b611d6b8083",
+        "id": "a11dc36c711cb443",
         "type": "tabs",
         "children": [
           {
-            "id": "bca62912391d4eee",
+            "id": "61b08e4674deeacf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/laravel-collection.md",
+                "file": "docs/laravel/validation/Rule-Unique.de.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "a1eb5322d8e9d444",
+            "id": "07367d837d0002c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/laravel-collection.md",
+                "file": "docs/laravel/validation/prepareForValidation.de.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -34,64 +34,12 @@
             }
           },
           {
-            "id": "26c886a4101e4068",
+            "id": "c27aff09f705a879",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/mkdocs/Commands.de.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "2711052431e2eaad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/mkdocs/Install.de.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a28ac90d622549b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/mkdocs.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "9824a4ea7f738511",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/mkdocs/Commands.de.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "85708af525efc7ee",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/pest/Commands.de.md",
+                "file": "docs/php/call-destruct.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -99,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -165,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/pest/Commands.de.md",
+                "file": "docs/php/call-destruct.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/pest/Commands.de.md",
+                "file": "docs/php/call-destruct.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/pest/Commands.de.md"
+                "file": "docs/php/call-destruct.md"
               }
             }
           }
@@ -228,17 +176,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "85708af525efc7ee",
+  "active": "c27aff09f705a879",
   "lastOpenFiles": [
-    "docs/pest/Composer.md",
-    "docs/pest/Commands.de.md",
     "docs/phpstan/Commands.de.md",
-    "templates/pest.md",
-    "templates/phpstan.md",
-    "templates/mkdocs.md",
-    "github copilot.md",
-    "templates/laravel-collection.md",
-    "docs/mkdocs/Commands.de.md",
-    "docs/mkdocs/Install.de.md"
+    "docs/laravel/tests/expectException-expectExceptionMessage.de.md",
+    "docs/laravel/database/Unique-columns.de.md",
+    "docs/laravel/validation/passedValidation.de.md",
+    "docs/laravel/validation/Rule-Unique.de.md",
+    "docs/laravel/validation/prepareForValidation.de.md",
+    "docs/laravel/eloquent/Touch-eloquent-method.de.md",
+    "docs/github/Force-push-git-branches.md",
+    "docs/github/Github-Key-Bereinigen.de.md",
+    "docs/laravel/collection/mapWithKeys.de.md"
   ]
 }

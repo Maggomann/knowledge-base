@@ -9,31 +9,25 @@ tags:
 
 ## mkdocs-glightbox
 
-```console
+```bash
 pip3 install mkdocs-glightbox
 ```
 
 ## mkdocs-minify-plugin
 
-```console
+```bash
 pip3 install mkdocs-minify-plugin
 ```
 
 ## mkdocs-static-i18n
 
-```console
+```bash
 pip3 install mkdocs-static-i18n
 pip3 install mkdocs-static-i18n --use-pep517
 ```
 
 ## mkdocs-admonition
 
-```console
+```bash
 pip3 install mkdocs-admonition
-```
-
-## mkdocs-admonition
-
-```console
-
 ```

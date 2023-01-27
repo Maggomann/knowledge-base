@@ -9,9 +9,9 @@ tags:
 
 # Kommandos
 
-## Der tägliche Wahnsinn
+## phpstan: Der tägliche Wahnsinn
 
-```console
+```bash
 vendor/bin/phpstan clear-result-cache --memory-limit=5G
 vendor/bin/phpstan analyse --ansi --memory-limit=5G
 vendor/bin/phpstan --generate-baseline --memory-limit=5G

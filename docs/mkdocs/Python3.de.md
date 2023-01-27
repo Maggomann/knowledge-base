@@ -9,12 +9,12 @@ tags:
 
 ## Install python3
 
-```console
+```bash
 python3 -m ensurepip --upgrade
 ```
 
 ## python3 --version
 
-```console
+```bash
 python3 --version
 ```

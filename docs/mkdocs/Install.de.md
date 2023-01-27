@@ -9,10 +9,10 @@ tags:
 
 ## Install python3
 
-Weitere Information siehe [[Python3.de]]
+Weitere Information siehe [Python3.de](Python3.de.md)
 
 ## Install mkdocs
 
-```console
+```bash
 pip3 install mkdocs
 ```

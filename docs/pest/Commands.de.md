@@ -9,12 +9,12 @@ tags:
 
 # Kommandos
 
-## composer test:pest-coverage
+## pest: composer test:pest-coverage
 
-Siehe hier: [[Composer]]
+Siehe hier: [Pest.de](../Composer/Pest.de.md)
 
-## Datei Testen
+## pest: Datei Testen
 
-```
+```bash
 composer test:pest-coverage Tests\Pfad\Zur\Datei\DateiOhneEndung
 ```

@@ -9,6 +9,6 @@ tags:
 
 # Templates
 
-```console
-pip3  install mkdocs-material
+```bash
+pip3 install mkdocs-material
 ```
