@@ -26,7 +26,8 @@ markdown_extensions:
   - pymdownx.details
 plugins:
   - glightbox
-  - pdf-export
+  - pdf-export:
+      combined: true
   - search:
       lang:
         - de
@@ -57,4 +58,4 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/Maggomann
     - icon: fontawesome/brands/github
-      link: https://github.com/Maggoman
+      link: https://github.com/Maggomann
