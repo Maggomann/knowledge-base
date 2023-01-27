@@ -8,9 +8,13 @@ tags:
 - touch
 ---
 
-# Touch eloquent method
+# Eloquent
+
+## Touch eloquent method
 
 ```php
+<?php
+
 $user = User::find(1);
 
 // instead of

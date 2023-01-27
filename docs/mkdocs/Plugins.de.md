@@ -31,3 +31,9 @@ pip3 install mkdocs-static-i18n --use-pep517
 ```bash
 pip3 install mkdocs-admonition
 ```
+
+## mkdocs-pdf-export-plugin
+
+```bash
+pip3 install mkdocs-pdf-export-plugin
+```

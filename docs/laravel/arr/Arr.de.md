@@ -15,6 +15,7 @@ tags:
 
 ```php
 <?php
+
 $config = ['.......'];
 $apiKey = Arr::get($config, 'api_key', fn () => throw new Exeption('your message here'));
 

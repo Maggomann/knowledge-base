@@ -7,7 +7,7 @@ tags:
 - desctruct
 ---
 
-# When does PHP call __destruct()?
+## When does PHP call __destruct()?
 
 In PHP,
 

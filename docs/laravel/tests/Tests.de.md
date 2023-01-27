@@ -8,9 +8,10 @@ tags:
 - exception
 ---
 
-# expectException and expectExceptionMessage
+## expectException and expectExceptionMessage
 
 ```php
+<?php
 use Application\User\Queries\ListUserQuery;
 use Illuminate\Http\Request;
 use Spatie\QueryBuilder\Exceptions\InvalidFilterQuery;
@@ -27,5 +28,6 @@ class ListUserQueryTest extends TestCase
         $request = new Request(['filter' => ['key_not_supported' => 'value is irrelevant']]);
 
         new ListUserQuery($request);
+	}
 }
 ```
