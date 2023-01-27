@@ -1,0 +1,10 @@
+{
+  "livePreview": false,
+  "readableLineLength": false,
+  "showFrontmatter": true,
+  "showLineNumber": true,
+  "spellcheck": false,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "relative"
+}
