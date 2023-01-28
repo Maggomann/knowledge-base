@@ -149,17 +149,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "af3be9cb12e9be65",
+  "active": "22501ddedb2e18d2",
   "lastOpenFiles": [
-    "mkdocs/laravel/eloquent.de.md",
-    "mkdocs/laravel/migrations.de.md",
-    "mkdocs/laravel/routing.de.md",
-    "mkdocs/laravel/tests.de.md",
-    "mkdocs/laravel/validation.de.md",
-    "mkdocs/mkdocs/templates.de.md",
-    "mkdocs/mkdocs/python3.de.md",
-    "mkdocs/mkdocs/plugins.de.md",
-    "mkdocs/mkdocs/pip.de.md",
-    "mkdocs/mkdocs/install.de.md"
+    "docs/laravel/collection.de.md",
+    "docs/laravel/eloquent.de.md",
+    "docs/laravel/validation.de.md",
+    "docs/laravel/tests.de.md",
+    "docs/laravel/route.de.md",
+    "docs/mkdocs/python-3.de.md",
+    "docs/composer/pest.de.md",
+    "docs/mkdocs/templates.de.md",
+    "docs/index.md",
+    "docs/pest.de.md"
   ]
 }

@@ -7,7 +7,7 @@ tags:
 - route
 ---
 
-# Routing
+# Route
 
 ## Test-Route
 

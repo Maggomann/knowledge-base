@@ -13,7 +13,7 @@ tags:
 
 ### pest: composer test:pest-coverage
 
-Siehe hier: [pest.de](Composer/pest.de.md)
+Siehe hier: [pest.de](composer/pest.de.md)
 
 ### pest: Datei Testen
 
