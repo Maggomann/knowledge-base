@@ -23,6 +23,7 @@ Route::get('/test-route', function () {
 ## withoutMiddleware
 
 ```php
+<?php
 use App\Http\Middleware\FirstMiddleware;
 use App\Http\Middleware\SecondMiddleware;
 use Illuminate\Support\Facades\Route;
