@@ -7,7 +7,7 @@ tags:
 - pip
 ---
 
-# Pip Commands
+# Pip Kommandos
 
 ## pip3
 

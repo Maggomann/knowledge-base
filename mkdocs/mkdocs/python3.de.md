@@ -7,7 +7,7 @@ tags:
 - installation
 ---
 
-## Install python3
+# Install python3
 
 ```bash
 python3 -m ensurepip --upgrade

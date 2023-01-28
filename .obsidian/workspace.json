@@ -142,15 +142,15 @@
   },
   "active": "9da9c20e341ec396",
   "lastOpenFiles": [
-    "docs/mkdocs/templates.de.md",
-    "docs/mkdocs/plugins.de.md",
-    "docs/mkdocs/pip.de.md",
-    "docs/mkdocs/install.de.md",
-    "docs/mkdocs/commands.de.md",
-    "docs/github/iossues-verlinken.de.md",
-    "docs/composer/pest.de.md",
-    "templates/laravel-collection.md",
+    "docs/valet.de.md",
+    "docs/phpstan.de.md",
+    "docs/php.de.md",
     "docs/pest.de.md",
-    "mkdocs/mkdocs/python3.de.md"
+    "docs/composer/pest.de.md",
+    "docs/github/git.de.md",
+    "docs/github/issues-verlinken.de.md",
+    "docs/laravel/arr.de.md",
+    "docs/laravel/collection.de.md",
+    "docs/laravel/eloquent.de.md"
   ]
 }

@@ -7,7 +7,7 @@ tags:
 - installation
 ---
 
-## Install python3
+# Install python3
 
 Weitere Information siehe [python3.de](python3.de.md)
 

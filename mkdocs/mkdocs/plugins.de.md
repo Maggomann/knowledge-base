@@ -7,6 +7,8 @@ tags:
 - plugins
 ---
 
+# Plugins
+
 ## mkdocs-glightbox
 
 ```bash
