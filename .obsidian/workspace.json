@@ -151,15 +151,15 @@
   },
   "active": "af3be9cb12e9be65",
   "lastOpenFiles": [
-    "docs/phpstan.de.md",
-    "docs/php.de.md",
-    "docs/Pest.de.md",
-    "docs/Composer/Pest.de.md",
-    "mkdocs/laravel/Tests.de.md",
-    "mkdocs/laravel/Routing.de.md",
-    "mkdocs/laravel/Validation.de.md",
-    "mkdocs/laravel/Arr.de.md",
-    "mkdocs/php/php.de.md",
-    "README.md"
+    "mkdocs/laravel/eloquent.de.md",
+    "mkdocs/laravel/migrations.de.md",
+    "mkdocs/laravel/routing.de.md",
+    "mkdocs/laravel/tests.de.md",
+    "mkdocs/laravel/validation.de.md",
+    "mkdocs/mkdocs/templates.de.md",
+    "mkdocs/mkdocs/python3.de.md",
+    "mkdocs/mkdocs/plugins.de.md",
+    "mkdocs/mkdocs/pip.de.md",
+    "mkdocs/mkdocs/install.de.md"
   ]
 }

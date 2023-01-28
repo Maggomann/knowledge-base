@@ -9,7 +9,7 @@ tags:
 
 ## Install python3
 
-Weitere Information siehe [Python3.de](Python3.de.md)
+Weitere Information siehe [python3.de](python3.de.md)
 
 ## Install mkdocs
 
