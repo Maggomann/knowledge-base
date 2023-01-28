@@ -57,6 +57,14 @@
          
     </url>
     <url>
+         <loc>Nonelaravel/Migrations/</loc>
+         <lastmod>2023-01-28</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/Migrations/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonede/laravel/Migrations/"/>
+         
+    </url>
+    <url>
          <loc>Nonelaravel/Routing/</loc>
          <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
@@ -78,14 +86,6 @@
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/Validation/"/>
          <xhtml:link rel="alternate" hreflang="de" href="Nonede/laravel/Validation/"/>
-         
-    </url>
-    <url>
-         <loc>Nonelaravel/migrations/</loc>
-         <lastmod>2023-01-28</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/migrations/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/laravel/migrations/"/>
          
     </url>
     <url>

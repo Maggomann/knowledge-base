@@ -35,11 +35,6 @@ try {
 Ein Fehler tritt zum Beispiel auf, wenn du eine Funktion aufrufst, die nie definiert wurde.
 
 ```php
-<?php undefinierte\_funktion(); ?\>
-
-<?php undefinierte\_funktion(); ?>
-
-<?php
 <?php undefinierte_funktion(); ?>
 ```
 
@@ -47,10 +42,6 @@ Output:
 
 ```batch
 Fatal error: Uncaught Error: Call to undefined function undefinierte\_funktion() in C:\\xampp\\htdocs\\codecitrus\\try\_catch.php:1 Stack trace: #0 {main} thrown in C:\\xampp\\htdocs\\codecitrus\\try\_catch.php on line 1
-
-Fatal error: Uncaught Error: Call to undefined function undefinierte\_funktion() in C:\\xampp\\htdocs\\codecitrus\\try\_catch.php:1 Stack trace: #0 {main} thrown in C:\\xampp\\htdocs\\codecitrus\\try\_catch.php on line 1
-
-Fatal error: Uncaught Error: Call to undefined function undefinierte_funktion() in C:\xampp\htdocs\codecitrus\try_catch.php:1 Stack trace: #0 {main} thrown in C:\xampp\htdocs\codecitrus\try_catch.php on line 1
 ```
 
 Um Code zu definieren, der nur ausgeführt wird, wenn ein Fehler (**Error**) auftritt, kannst du **try** und **catch** anwenden.
@@ -71,7 +62,6 @@ Output:
 ```batch
 Ein Fehler ist aufgetreten
 Call to undefined function undefinierte_funktion()
-Ein Fehler ist aufgetreten Call to undefined function undefinierte\_funktion()
 ```
 
 Wenn stattdessen eine Ausnahme (**Exception**) auftritt, musst du das im **catch** Block so angeben, um diese zu behandeln.

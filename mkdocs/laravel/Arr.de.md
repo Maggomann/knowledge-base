@@ -8,8 +8,7 @@ tags:
 - helper
 ---
 
-# Arr::helper
-
+# Arr
 
 ## Throw an exception
 
