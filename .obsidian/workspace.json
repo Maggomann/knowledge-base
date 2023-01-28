@@ -142,15 +142,15 @@
   },
   "active": "9da9c20e341ec396",
   "lastOpenFiles": [
-    "docs/pest.de.md",
-    "docs/composer/pest-rename.de.md",
-    "mkdocs/mkdocs/python3.de.md",
-    "mkdocs/mkdocs/templates-rename.de.md",
-    "mkdocs/mkdocs/plugins-rename.de.md",
-    "mkdocs/mkdocs/pip-rename.de.md",
-    "mkdocs/mkdocs/install-rename.de.md",
-    "mkdocs/mkdocs/commands-rename.de.md",
+    "docs/mkdocs/templates.de.md",
+    "docs/mkdocs/plugins.de.md",
+    "docs/mkdocs/pip.de.md",
     "docs/mkdocs/install.de.md",
-    "docs/mkdocs/commands.de.md"
+    "docs/mkdocs/commands.de.md",
+    "docs/github/iossues-verlinken.de.md",
+    "docs/composer/pest.de.md",
+    "templates/laravel-collection.md",
+    "docs/pest.de.md",
+    "mkdocs/mkdocs/python3.de.md"
   ]
 }
