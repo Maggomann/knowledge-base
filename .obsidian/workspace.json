@@ -4,27 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "a11dc36c711cb443",
+        "id": "5849d05cef79d5a7",
         "type": "tabs",
         "children": [
           {
-            "id": "cdb7c58531658356",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "22501ddedb2e18d2",
+            "id": "9da9c20e341ec396",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -149,8 +140,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "22501ddedb2e18d2",
+  "active": "9da9c20e341ec396",
   "lastOpenFiles": [
+    "docs/mkdocs/install.de.md",
+    "docs/mkdocs/commands.de.md",
     "docs/laravel/collection.de.md",
     "docs/laravel/eloquent.de.md",
     "docs/laravel/validation.de.md",
@@ -158,8 +151,6 @@
     "docs/laravel/route.de.md",
     "docs/mkdocs/python-3.de.md",
     "docs/composer/pest.de.md",
-    "docs/mkdocs/templates.de.md",
-    "docs/index.md",
-    "docs/pest.de.md"
+    "docs/mkdocs/templates.de.md"
   ]
 }
