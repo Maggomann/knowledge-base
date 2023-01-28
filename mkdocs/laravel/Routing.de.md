@@ -7,7 +7,7 @@ tags:
 - route
 ---
 
-# Validation
+# Routing
 
 ## Test-Route
 
@@ -71,7 +71,7 @@ class EnsureUserHasRole
 		}
 
 		return $next($request);
-	
+
 	}
 }
 ```

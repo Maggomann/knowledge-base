@@ -18,6 +18,8 @@ tags:
 - once()
 ---
 
+# Tests
+
 ## expectException and expectExceptionMessage
 
 ```php
@@ -223,7 +225,7 @@ class ListUserQueryTest extends TestCase
 
 ## Event::fake
 
-### Event::assertDispatched
+### Event: assertDispatched
 
 ```php
 <?php
@@ -248,7 +250,7 @@ class ListUserQueryTest extends TestCase
     }
 ```
 
-### Event::assertNotDispatched
+### Event: assertNotDispatched
 
 ```php
 <?php
@@ -268,7 +270,7 @@ class ListUserQueryTest extends TestCase
     }
 ```
 
-### Event::assertDispatchedTimes
+### Event: assertDispatchedTimes
 
 ```php
 <?php
@@ -309,7 +311,7 @@ class ListUserQueryTest extends TestCase
     }
 ```
 
-### Event::assertListening
+### Event: assertListening
 
 ```php
 <?php
@@ -337,7 +339,7 @@ class ListUserQueryTest extends TestCase
     }
 ```
 
-### Event::assertNotListening
+### Event: assertNotListening
 
 ```php
 <?php
@@ -359,7 +361,7 @@ class ListUserQueryTest extends TestCase
 
 ## Queue::fake
 
-### Queue::assertPushed
+### Queue: assertPushed
 
 ```php
 /** @test */
@@ -388,7 +390,7 @@ class ListUserQueryTest extends TestCase
     }
 ```
 
-### Queue::assertNothingPushed
+### Queue: assertNothingPushed
 
 ```php
 /** @test */
@@ -412,7 +414,7 @@ class ListUserQueryTest extends TestCase
     }
 ```
 
-### Queue::assertPushedOn
+### Queue: assertPushedOn
 
 ```php
 /** @test */
@@ -441,7 +443,7 @@ class ListUserQueryTest extends TestCase
     }
 ```
 
-### Queue::assertPushedWithChain
+### Queue: assertPushedWithChain
 
 ```php
 /** @test */
@@ -483,7 +485,7 @@ class ListUserQueryTest extends TestCase
     }
 ```
 
-### Queue::assertPushedWithoutChain
+### Queue: assertPushedWithoutChain
 
 ```php
 /** @test */
@@ -513,7 +515,7 @@ class ListUserQueryTest extends TestCase
     }
 ```
 
-### Queue::assertPushedWithCallback
+### Queue: assertPushedWithCallback
 
 ```php
 /** @test */
@@ -551,7 +553,7 @@ class ListUserQueryTest extends TestCase
     }
 ```
 
-### Queue::assertPushedWithoutCallback
+### Queue: assertPushedWithoutCallback
 
 ```php
 /** @test */
@@ -581,7 +583,7 @@ class ListUserQueryTest extends TestCase
     }
 ```
 
-### Queue::assertPushedAfterResponse
+### Queue: assertPushedAfterResponse
 
 ```php
 /** @test */

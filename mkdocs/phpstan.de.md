@@ -7,9 +7,11 @@ tags:
 - commandos
 ---
 
-# Kommandos
+# phpstan
 
-## phpstan: Der tägliche Wahnsinn
+## Kommandos
+
+### phpstan: Der tägliche Wahnsinn
 
 ```bash
 vendor/bin/phpstan clear-result-cache --memory-limit=5G

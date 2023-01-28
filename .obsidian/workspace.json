@@ -149,17 +149,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "22501ddedb2e18d2",
+  "active": "af3be9cb12e9be65",
   "lastOpenFiles": [
+    "docs/phpstan.de.md",
+    "docs/php.de.md",
+    "docs/Pest.de.md",
+    "docs/Composer/Pest.de.md",
     "mkdocs/laravel/Tests.de.md",
     "mkdocs/laravel/Routing.de.md",
     "mkdocs/laravel/Validation.de.md",
     "mkdocs/laravel/Arr.de.md",
     "mkdocs/php/php.de.md",
-    "README.md",
-    "LICENSE.md",
-    "CHANGELOG.md",
-    "SECURITY.md",
-    "docs/laravel/collection/Collection.de.md"
+    "README.md"
   ]
 }

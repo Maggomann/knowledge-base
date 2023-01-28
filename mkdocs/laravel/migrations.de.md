@@ -9,6 +9,7 @@ tags:
 - unique
 - migration
 ---
+# Migrations
 
 ## Unique columns
 

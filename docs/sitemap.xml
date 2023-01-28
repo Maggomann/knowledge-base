@@ -9,6 +9,38 @@
          
     </url>
     <url>
+         <loc>NonePest/</loc>
+         <lastmod>2023-01-28</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/Pest/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonede/Pest/"/>
+         
+    </url>
+    <url>
+         <loc>NoneValet/</loc>
+         <lastmod>2023-01-28</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/Valet/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonede/Valet/"/>
+         
+    </url>
+    <url>
+         <loc>Nonephp/</loc>
+         <lastmod>2023-01-28</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/php/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonede/php/"/>
+         
+    </url>
+    <url>
+         <loc>Nonephpstan/</loc>
+         <lastmod>2023-01-28</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/phpstan/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonede/phpstan/"/>
+         
+    </url>
+    <url>
          <loc>NoneComposer/Pest/</loc>
          <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
@@ -134,38 +166,6 @@
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/mkdocs/Templates/"/>
          <xhtml:link rel="alternate" hreflang="de" href="Nonede/mkdocs/Templates/"/>
-         
-    </url>
-    <url>
-         <loc>Nonepest/Commands/</loc>
-         <lastmod>2023-01-28</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/pest/Commands/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/pest/Commands/"/>
-         
-    </url>
-    <url>
-         <loc>Nonephp/php/</loc>
-         <lastmod>2023-01-28</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/php/php/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/php/php/"/>
-         
-    </url>
-    <url>
-         <loc>Nonephpstan/Commands/</loc>
-         <lastmod>2023-01-28</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/phpstan/Commands/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/phpstan/Commands/"/>
-         
-    </url>
-    <url>
-         <loc>Nonevalet/Commands/</loc>
-         <lastmod>2023-01-28</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/valet/Commands/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/valet/Commands/"/>
          
     </url>
 </urlset>

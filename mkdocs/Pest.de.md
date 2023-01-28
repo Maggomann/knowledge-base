@@ -7,13 +7,15 @@ tags:
 - commandos
 ---
 
-# Kommandos
+# Pest
 
-## pest: composer test:pest-coverage
+## Kommandos
 
-Siehe hier: [Pest.de](../Composer/Pest.de.md)
+### pest: composer test:pest-coverage
 
-## pest: Datei Testen
+Siehe hier: [Pest.de](Composer/Pest.de.md)
+
+### pest: Datei Testen
 
 ```bash
 composer test:pest-coverage Tests\Pfad\Zur\Datei\DateiOhneEndung

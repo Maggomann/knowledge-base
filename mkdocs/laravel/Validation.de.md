@@ -97,7 +97,7 @@ class EditUserRequest extends Request
     protected function passedValidation()
     {
         $this->merge([
-            'nickname' => $this->input('nickname', '') . '❤️', 
+            'nickname' => $this->input('nickname', '') . '❤️',
         ]);
 
         $this->getValidatorInstance()->setData(
