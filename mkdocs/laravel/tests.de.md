@@ -22,8 +22,10 @@ tags:
 
 ## expectException and expectExceptionMessage
 
+
 ```php
 <?php
+
 use Application\User\Queries\ListUserQuery;
 use Illuminate\Http\Request;
 use Spatie\QueryBuilder\Exceptions\InvalidFilterQuery;
@@ -46,8 +48,10 @@ class ListUserQueryTest extends TestCase
 
 ## it_uses_the_right_query_filters
 
+
 ```php
 <?php
+
     /** @test */
     public function it_uses_the_right_query_filters(): void
     {
@@ -66,6 +70,7 @@ class ListUserQueryTest extends TestCase
 
 ```php
 <?php
+
     /** @test */
     public function it_throws_an_error_if_model_doesnt_exist(): void
     {
@@ -81,8 +86,10 @@ class ListUserQueryTest extends TestCase
 
 ## it_uses_the_right_query_class
 
+
 ```php
 <?php
+
     /** @test */
     public function it_uses_the_right_query_class(): void
     {
@@ -105,8 +112,10 @@ class ListUserQueryTest extends TestCase
 
 ## it_uses_the_right_collection
 
+
 ```php
 <?php
+
     /** @test */
     public function it_uses_the_right_collection(): void
     {
@@ -121,6 +130,7 @@ class ListUserQueryTest extends TestCase
 
 ```php
 <?php
+
     public function middlewares(): array
     {
         return [
@@ -146,8 +156,10 @@ class ListUserQueryTest extends TestCase
 
 ## it_returns_the_right_structure | Collection
 
+
 ```php
 <?php
+
     /** @test */
     public function it_returns_the_right_structure(): void
     {
@@ -167,9 +179,11 @@ class ListUserQueryTest extends TestCase
 
 ## it_returns_the_right_structure | Resource
 
+
 ```php
 <?php
-/** @test */
+
+	/** @test */
     public function it_returns_the_right_structure(): void
     {
         $response = $this->createResource(
@@ -201,8 +215,10 @@ class ListUserQueryTest extends TestCase
 
 ## examples_for_mock_actions
 
+
 ```php
 <?php
+
     /** @test */
     public function examples_for_mock_actions(): void
     {
@@ -227,13 +243,17 @@ class ListUserQueryTest extends TestCase
 
 ### Event:: assertDispatched
 
+
 ```php
 <?php
-/** @test */
+
+	/** @test */
     public function event_assert_dispatched(): void
     {
         Event::fake();
+        
         // or
+        
         Event::fake([
             ExampleCreated::class,
         ]);
@@ -252,13 +272,17 @@ class ListUserQueryTest extends TestCase
 
 ### Event:: assertNotDispatched
 
+
 ```php
 <?php
-/** @test */
+
+	/** @test */
     public function event_assert_not_dispatched(): void
     {
         Event::fake();
+        
         // or
+        
         Event::fake([
             ExampleCreated::class,
         ]);
@@ -272,13 +296,17 @@ class ListUserQueryTest extends TestCase
 
 ### Event:: assertDispatchedTimes
 
+
 ```php
 <?php
-/** @test */
+
+	/** @test */
     public function event_assert_dispatched_times(): void
     {
         Event::fake();
+        
         // or
+        
         Event::fake([
             ExampleCreated::class,
         ]);
@@ -313,13 +341,17 @@ class ListUserQueryTest extends TestCase
 
 ### Event:: assertListening
 
+
 ```php
 <?php
-/** @test */
+
+	/** @test */
     public function event_assert_listening(): void
     {
         Event::fake();
+        
         // or
+        
         Event::fake([
             ExampleCreated::class,
         ]);
@@ -341,13 +373,17 @@ class ListUserQueryTest extends TestCase
 
 ### Event:: assertNotListening
 
+
 ```php
 <?php
-/** @test */
+
+	/** @test */
     public function event_assert_not_listening(): void
     {
         Event::fake();
+        
         // or
+        
         Event::fake([
             ExampleCreated::class,
         ]);
@@ -363,13 +399,17 @@ class ListUserQueryTest extends TestCase
 
 ### Queue:: assertPushed
 
+
 ```php
-/** @test */
+<?php
+
+	/** @test */
     public function examples_for_queue_fakes(): void
     {
         Queue::fake();
 
         // or
+        
         Queue::fake([
             ExampleJob::class,
         ]);
@@ -392,13 +432,17 @@ class ListUserQueryTest extends TestCase
 
 ### Queue:: assertNothingPushed
 
+
 ```php
-/** @test */
+<?php
+
+	/** @test */
     public function queue_assert_nothing_pushed(): void
     {
         Queue::fake();
 
         // or
+        
         Queue::fake([
             ExampleJob::class,
         ]);
@@ -416,13 +460,17 @@ class ListUserQueryTest extends TestCase
 
 ### Queue:: assertPushedOn
 
+
 ```php
-/** @test */
+<?php
+
+	/** @test */
     public function queue_assert_pushed_on(): void
     {
         Queue::fake();
 
         // or
+        
         Queue::fake([
             ExampleJob::class,
         ]);
@@ -445,13 +493,17 @@ class ListUserQueryTest extends TestCase
 
 ### Queue:: assertPushedWithChain
 
+
 ```php
-/** @test */
+<?php
+
+	/** @test */
     public function queue_assert_pushed_with_chain(): void
     {
         Queue::fake();
 
         // or
+        
         Queue::fake([
             ExampleJob::class,
         ]);
@@ -487,13 +539,17 @@ class ListUserQueryTest extends TestCase
 
 ### Queue:: assertPushedWithoutChain
 
+
 ```php
-/** @test */
+<?php
+
+	/** @test */
     public function queue_assert_pushed_without_chain(): void
     {
         Queue::fake();
 
         // or
+        
         Queue::fake([
             ExampleJob::class,
         ]);
@@ -517,13 +573,17 @@ class ListUserQueryTest extends TestCase
 
 ### Queue:: assertPushedWithCallback
 
+
 ```php
-/** @test */
+<?php
+
+	/** @test */
     public function queue_assert_pushed_with_callback(): void
     {
         Queue::fake();
 
         // or
+        
         Queue::fake([
             ExampleJob::class,
         ]);
@@ -555,13 +615,17 @@ class ListUserQueryTest extends TestCase
 
 ### Queue:: assertPushedWithoutCallback
 
+
 ```php
-/** @test */
+<?php
+
+	/** @test */
     public function queue_assert_pushed_without_callback(): void
     {
         Queue::fake();
 
         // or
+        
         Queue::fake([
             ExampleJob::class,
         ]);
@@ -585,13 +649,17 @@ class ListUserQueryTest extends TestCase
 
 ### Queue:: assertPushedAfterResponse
 
+
 ```php
-/** @test */
+<?php
+
+	/** @test */
     public function queue_assert_pushed_after_response(): void
     {
         Queue::fake();
 
         // or
+        
         Queue::fake([
             ExampleJob::class,
         ]);

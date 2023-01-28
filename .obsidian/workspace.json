@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "5849d05cef79d5a7",
+        "id": "20bbb8d4f3704eec",
         "type": "tabs",
         "children": [
           {
-            "id": "9da9c20e341ec396",
+            "id": "eccba492f6567105",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "docs/Shortcuts.de.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "docs/Shortcuts.de.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "docs/Shortcuts.de.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "docs/Shortcuts.de.md"
+              }
             }
           }
         ]
@@ -140,17 +149,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9da9c20e341ec396",
+  "active": "eccba492f6567105",
   "lastOpenFiles": [
-    "docs/valet.de.md",
-    "docs/phpstan.de.md",
-    "docs/php.de.md",
-    "docs/pest.de.md",
-    "docs/composer/pest.de.md",
-    "docs/github/git.de.md",
-    "docs/github/issues-verlinken.de.md",
-    "docs/laravel/arr.de.md",
     "docs/laravel/collection.de.md",
-    "docs/laravel/eloquent.de.md"
+    "docs/Shortcuts.de.md",
+    "docs/laravel/eloquent.de.md",
+    "docs/laravel/migrations.de.md",
+    "docs/laravel/route.de.md",
+    "docs/laravel/tests.de.md",
+    "docs/laravel/validation.de.md",
+    "docs/mkdocs/commands.de.md",
+    "docs/valet.de.md",
+    "docs/phpstan.de.md"
   ]
 }

@@ -19,6 +19,7 @@ tags:
 
 ```php
 <?php
+
 use Illuminate\Validation\Rule;
 use Smake\Common\Http\Requests\Request;
 
@@ -87,8 +88,10 @@ class EditUserRequest extends Request
 
 ## passedValidation
 
+
 ```php
 <?php
+
 use Illuminate\Validation\Rule;
 use Smake\Common\Http\Requests\Request;
 

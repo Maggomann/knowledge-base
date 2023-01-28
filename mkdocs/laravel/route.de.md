@@ -13,6 +13,7 @@ tags:
 
 ```php
 <?php
+
 use Illuminate\Support\Facades\Route;
 
 Route::get('/test-route', function () {
@@ -24,6 +25,7 @@ Route::get('/test-route', function () {
 
 ```php
 <?php
+
 use App\Http\Middleware\FirstMiddleware;
 use App\Http\Middleware\SecondMiddleware;
 use Illuminate\Support\Facades\Route;
@@ -59,6 +61,7 @@ Route::prefix('my-prefix')
 
 ```php
 <?php
+
 namespace App\Http\Middleware;
 
 use Closure;
@@ -80,6 +83,7 @@ class EnsureUserHasRole
 
 ```php
 <?php
+
 use Illuminate\Support\Facades\Route;
 
 Route::put('/post/{id}', function ($id) {
