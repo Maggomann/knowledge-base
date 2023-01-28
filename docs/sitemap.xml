@@ -41,19 +41,11 @@
          
     </url>
     <url>
-         <loc>Nonecomposer/pest/</loc>
+         <loc>Nonecomposer/pest-rename/</loc>
          <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/composer/pest/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/composer/pest/"/>
-         
-    </url>
-    <url>
-         <loc>Nonegithub/Issues-verlinken/</loc>
-         <lastmod>2023-01-28</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/github/Issues-verlinken/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/github/Issues-verlinken/"/>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/composer/pest-rename/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonede/composer/pest-rename/"/>
          
     </url>
     <url>
@@ -62,6 +54,14 @@
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/github/git/"/>
          <xhtml:link rel="alternate" hreflang="de" href="Nonede/github/git/"/>
+         
+    </url>
+    <url>
+         <loc>Nonegithub/iossues-verlinken-rename/</loc>
+         <lastmod>2023-01-28</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/github/iossues-verlinken-rename/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonede/github/iossues-verlinken-rename/"/>
          
     </url>
     <url>
@@ -121,35 +121,35 @@
          
     </url>
     <url>
-         <loc>Nonemkdocs/commands/</loc>
+         <loc>Nonemkdocs/commands-rename/</loc>
          <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/mkdocs/commands/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/mkdocs/commands/"/>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/mkdocs/commands-rename/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonede/mkdocs/commands-rename/"/>
          
     </url>
     <url>
-         <loc>Nonemkdocs/install/</loc>
+         <loc>Nonemkdocs/install-rename/</loc>
          <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/mkdocs/install/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/mkdocs/install/"/>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/mkdocs/install-rename/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonede/mkdocs/install-rename/"/>
          
     </url>
     <url>
-         <loc>Nonemkdocs/pip/</loc>
+         <loc>Nonemkdocs/pip-rename/</loc>
          <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/mkdocs/pip/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/mkdocs/pip/"/>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/mkdocs/pip-rename/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonede/mkdocs/pip-rename/"/>
          
     </url>
     <url>
-         <loc>Nonemkdocs/plugins/</loc>
+         <loc>Nonemkdocs/plugins-rename/</loc>
          <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/mkdocs/plugins/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/mkdocs/plugins/"/>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/mkdocs/plugins-rename/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonede/mkdocs/plugins-rename/"/>
          
     </url>
     <url>
@@ -161,11 +161,11 @@
          
     </url>
     <url>
-         <loc>Nonemkdocs/templates/</loc>
+         <loc>Nonemkdocs/templates-rename/</loc>
          <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/mkdocs/templates/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/mkdocs/templates/"/>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/mkdocs/templates-rename/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonede/mkdocs/templates-rename/"/>
          
     </url>
 </urlset>
