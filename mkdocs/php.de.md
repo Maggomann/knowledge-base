@@ -189,7 +189,7 @@ Mit **try**, **catch** und **finally** stellt uns PHP mächtige Werkzeuge zur Ve
 Damit können wir Logs erstellen, alternative Routinen ausführen oder einfach unser Skript stoppen.
 Vorsicht ist jedoch geboten, wenn wir unseren Code in solchen Blöcken mit **return** verwenden, da dies zu unerwarteten Ergebnissen führen kann.
 
-- [Original Artikel von Patrick](https://codegree.de/php-try-catch/
+- [Original Artikel von Patrick](https://codegree.de/php-try-catch/)
 
 ---
 
