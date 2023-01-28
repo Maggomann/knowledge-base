@@ -8,44 +8,23 @@
         "type": "tabs",
         "children": [
           {
-            "id": "61b08e4674deeacf",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "07367d837d0002c1",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "c27aff09f705a879",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
             "id": "cdb7c58531658356",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "22501ddedb2e18d2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -111,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -174,17 +149,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cdb7c58531658356",
+  "active": "22501ddedb2e18d2",
   "lastOpenFiles": [
+    "mkdocs/laravel/Tests.de.md",
+    "mkdocs/laravel/Routing.de.md",
+    "mkdocs/laravel/Validation.de.md",
+    "mkdocs/laravel/Arr.de.md",
+    "mkdocs/php/php.de.md",
+    "README.md",
     "LICENSE.md",
     "CHANGELOG.md",
     "SECURITY.md",
-    "README.md",
-    "docs/laravel/collection/Collection.de.md",
-    "docs/laravel/validation/Validation.de.md",
-    "docs/laravel/tests/Tests.de.md",
-    "docs/laravel/eloquent/Eloquent.de.md",
-    "docs/laravel/arr/Arr.de.md",
-    "docs/laravel/database/migrations.de.md"
+    "docs/laravel/collection/Collection.de.md"
   ]
 }

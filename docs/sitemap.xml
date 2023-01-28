@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
          <loc>None./</loc>
-         <lastmod>2023-01-27</lastmod>
+         <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/"/>
          <xhtml:link rel="alternate" hreflang="de" href="Nonede/"/>
@@ -10,87 +10,87 @@
     </url>
     <url>
          <loc>NoneComposer/Pest/</loc>
-         <lastmod>2023-01-27</lastmod>
+         <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/Composer/Pest/"/>
          <xhtml:link rel="alternate" hreflang="de" href="Nonede/Composer/Pest/"/>
          
     </url>
     <url>
-         <loc>Nonegithub/Force-push-git-branches/</loc>
-         <lastmod>2023-01-27</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/github/Force-push-git-branches/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/github/Force-push-git-branches/"/>
-         
-    </url>
-    <url>
-         <loc>Nonegithub/Github-Key-Bereinigen/</loc>
-         <lastmod>2023-01-27</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/github/Github-Key-Bereinigen/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/github/Github-Key-Bereinigen/"/>
-         
-    </url>
-    <url>
          <loc>Nonegithub/Issues-verlinken/</loc>
-         <lastmod>2023-01-27</lastmod>
+         <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/github/Issues-verlinken/"/>
          <xhtml:link rel="alternate" hreflang="de" href="Nonede/github/Issues-verlinken/"/>
          
     </url>
     <url>
-         <loc>Nonelaravel/arr/Arr/</loc>
-         <lastmod>2023-01-27</lastmod>
+         <loc>Nonegithub/git/</loc>
+         <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/arr/Arr/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/laravel/arr/Arr/"/>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/github/git/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonede/github/git/"/>
          
     </url>
     <url>
-         <loc>Nonelaravel/collection/Collection/</loc>
-         <lastmod>2023-01-27</lastmod>
+         <loc>Nonelaravel/Arr/</loc>
+         <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/collection/Collection/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/laravel/collection/Collection/"/>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/Arr/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonede/laravel/Arr/"/>
          
     </url>
     <url>
-         <loc>Nonelaravel/database/migrations/</loc>
-         <lastmod>2023-01-27</lastmod>
+         <loc>Nonelaravel/Collection/</loc>
+         <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/database/migrations/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/laravel/database/migrations/"/>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/Collection/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonede/laravel/Collection/"/>
          
     </url>
     <url>
-         <loc>Nonelaravel/eloquent/Eloquent/</loc>
-         <lastmod>2023-01-27</lastmod>
+         <loc>Nonelaravel/Eloquent/</loc>
+         <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/eloquent/Eloquent/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/laravel/eloquent/Eloquent/"/>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/Eloquent/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonede/laravel/Eloquent/"/>
          
     </url>
     <url>
-         <loc>Nonelaravel/tests/Tests/</loc>
-         <lastmod>2023-01-27</lastmod>
+         <loc>Nonelaravel/Routing/</loc>
+         <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/tests/Tests/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/laravel/tests/Tests/"/>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/Routing/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonede/laravel/Routing/"/>
          
     </url>
     <url>
-         <loc>Nonelaravel/validation/Validation/</loc>
-         <lastmod>2023-01-27</lastmod>
+         <loc>Nonelaravel/Tests/</loc>
+         <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/validation/Validation/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/laravel/validation/Validation/"/>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/Tests/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonede/laravel/Tests/"/>
+         
+    </url>
+    <url>
+         <loc>Nonelaravel/Validation/</loc>
+         <lastmod>2023-01-28</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/Validation/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonede/laravel/Validation/"/>
+         
+    </url>
+    <url>
+         <loc>Nonelaravel/migrations/</loc>
+         <lastmod>2023-01-28</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/migrations/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonede/laravel/migrations/"/>
          
     </url>
     <url>
          <loc>Nonemkdocs/Commands/</loc>
-         <lastmod>2023-01-27</lastmod>
+         <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/mkdocs/Commands/"/>
          <xhtml:link rel="alternate" hreflang="de" href="Nonede/mkdocs/Commands/"/>
@@ -98,7 +98,7 @@
     </url>
     <url>
          <loc>Nonemkdocs/Install/</loc>
-         <lastmod>2023-01-27</lastmod>
+         <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/mkdocs/Install/"/>
          <xhtml:link rel="alternate" hreflang="de" href="Nonede/mkdocs/Install/"/>
@@ -106,7 +106,7 @@
     </url>
     <url>
          <loc>Nonemkdocs/Pip/</loc>
-         <lastmod>2023-01-27</lastmod>
+         <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/mkdocs/Pip/"/>
          <xhtml:link rel="alternate" hreflang="de" href="Nonede/mkdocs/Pip/"/>
@@ -114,7 +114,7 @@
     </url>
     <url>
          <loc>Nonemkdocs/Plugins/</loc>
-         <lastmod>2023-01-27</lastmod>
+         <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/mkdocs/Plugins/"/>
          <xhtml:link rel="alternate" hreflang="de" href="Nonede/mkdocs/Plugins/"/>
@@ -122,7 +122,7 @@
     </url>
     <url>
          <loc>Nonemkdocs/Python3/</loc>
-         <lastmod>2023-01-27</lastmod>
+         <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/mkdocs/Python3/"/>
          <xhtml:link rel="alternate" hreflang="de" href="Nonede/mkdocs/Python3/"/>
@@ -130,7 +130,7 @@
     </url>
     <url>
          <loc>Nonemkdocs/Templates/</loc>
-         <lastmod>2023-01-27</lastmod>
+         <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/mkdocs/Templates/"/>
          <xhtml:link rel="alternate" hreflang="de" href="Nonede/mkdocs/Templates/"/>
@@ -138,23 +138,23 @@
     </url>
     <url>
          <loc>Nonepest/Commands/</loc>
-         <lastmod>2023-01-27</lastmod>
+         <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/pest/Commands/"/>
          <xhtml:link rel="alternate" hreflang="de" href="Nonede/pest/Commands/"/>
          
     </url>
     <url>
-         <loc>Nonephp/call-destruct/</loc>
-         <lastmod>2023-01-27</lastmod>
+         <loc>Nonephp/php/</loc>
+         <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/php/call-destruct/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/php/call-destruct/"/>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/php/php/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonede/php/php/"/>
          
     </url>
     <url>
          <loc>Nonephpstan/Commands/</loc>
-         <lastmod>2023-01-27</lastmod>
+         <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/phpstan/Commands/"/>
          <xhtml:link rel="alternate" hreflang="de" href="Nonede/phpstan/Commands/"/>
@@ -162,7 +162,7 @@
     </url>
     <url>
          <loc>Nonevalet/Commands/</loc>
-         <lastmod>2023-01-27</lastmod>
+         <lastmod>2023-01-28</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/valet/Commands/"/>
          <xhtml:link rel="alternate" hreflang="de" href="Nonede/valet/Commands/"/>
