@@ -1,6 +1,6 @@
 ## knowledge-base
 
-The documentation is under construction [documentation](https://maggomann.github.io/knowledge-base/).
+The [documentation](https://maggomann.github.io/knowledge-base/) is under construction.
 
 ## Changelog
 
