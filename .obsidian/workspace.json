@@ -4,15 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "f0f9d38467ec8f91",
+        "id": "8b41d9552cd3a785",
         "type": "tabs",
         "children": [
           {
-            "id": "09566577c176fa42",
+            "id": "e689aaaf7aacf582",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "mkdocs/shortcuts.de.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "mkdocs/shortcuts.de.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "mkdocs/shortcuts.de.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "mkdocs/shortcuts.de.md"
+              }
             }
           }
         ]
@@ -140,8 +149,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "09566577c176fa42",
+  "active": "e689aaaf7aacf582",
   "lastOpenFiles": [
+    "mkdocs/shortcuts.de.md",
     "Shortcuts.de.md",
     "VS-Code-Plugins.de.md",
     "docs/laravel/collection.de.md",
@@ -150,7 +160,6 @@
     "docs/laravel/migrations.de.md",
     "docs/laravel/route.de.md",
     "docs/laravel/tests.de.md",
-    "docs/laravel/validation.de.md",
-    "docs/mkdocs/commands.de.md"
+    "docs/laravel/validation.de.md"
   ]
 }
