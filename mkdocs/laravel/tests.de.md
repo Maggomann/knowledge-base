@@ -251,9 +251,9 @@ class ListUserQueryTest extends TestCase
     public function event_assert_dispatched(): void
     {
         Event::fake();
-        
+
         // or
-        
+
         Event::fake([
             ExampleCreated::class,
         ]);
@@ -280,9 +280,9 @@ class ListUserQueryTest extends TestCase
     public function event_assert_not_dispatched(): void
     {
         Event::fake();
-        
+
         // or
-        
+
         Event::fake([
             ExampleCreated::class,
         ]);
@@ -291,6 +291,10 @@ class ListUserQueryTest extends TestCase
 
         // Assert a event was not dispatched...
         Event::assertNotDispatched(ExampleCreated::class);
+
+        Event::assertNotDispatched(ExampleCreated::class, function ($event, $payload) {
+            return $payload[0]->name === 'John Doe';
+        });
     }
 ```
 
@@ -304,9 +308,9 @@ class ListUserQueryTest extends TestCase
     public function event_assert_dispatched_times(): void
     {
         Event::fake();
-        
+
         // or
-        
+
         Event::fake([
             ExampleCreated::class,
         ]);
@@ -315,27 +319,6 @@ class ListUserQueryTest extends TestCase
 
         // Assert a event was dispatched exactly n times...
         Event::assertDispatchedTimes(ExampleCreated::class, 1);
-
-        // Assert a event was dispatched at least n times...
-        Event::assertDispatchedTimes(ExampleCreated::class, 1, '>=');
-
-        // Assert a event was dispatched at most n times...
-        Event::assertDispatchedTimes(ExampleCreated::class, 1, '<=');
-
-        // Assert a event was dispatched exactly n times with the given callback...
-        Event::assertDispatchedTimes(ExampleCreated::class, 1, function ($event) use ($myExample) {
-            return $event->myExample->is($myExample);
-        });
-
-        // Assert a event was dispatched at least n times with the given callback...
-        Event::assertDispatchedTimes(ExampleCreated::class, 1, '>=', function ($event) use ($myExample) {
-            return $event->myExample->is($myExample);
-        });
-
-        // Assert a event was dispatched at most n times with the given callback...
-        Event::assertDispatchedTimes(ExampleCreated::class, 1, '<=', function ($event) use ($myExample) {
-            return $event->myExample->is($myExample);
-        });
     }
 ```
 
@@ -349,9 +332,9 @@ class ListUserQueryTest extends TestCase
     public function event_assert_listening(): void
     {
         Event::fake();
-        
+
         // or
-        
+
         Event::fake([
             ExampleCreated::class,
         ]);
@@ -360,38 +343,6 @@ class ListUserQueryTest extends TestCase
 
         // assert that a listener is listening to a given event
         Event::assertListening(ExampleCreated::class, ExampleListener::class);
-
-        // assert that a listener is not listening to a given event
-        Event::assertNotListening(ExampleCreated::class, ExampleListener::class);
-
-        // assert that a listener is listening to a given event with the given callback
-        Event::assertListening(ExampleCreated::class, function ($event) use ($myExample) {
-            return $event->myExample->is($myExample);
-        });
-    }
-```
-
-### Event:: assertNotListening
-
-
-```php
-<?php
-
-	/** @test */
-    public function event_assert_not_listening(): void
-    {
-        Event::fake();
-        
-        // or
-        
-        Event::fake([
-            ExampleCreated::class,
-        ]);
-
-        $myExample = MyExampleFactory::new()->create();
-
-        // assert that a listener is not listening to a given event
-        Event::assertNotListening(ExampleCreated::class, ExampleListener::class);
     }
 ```
 
@@ -409,7 +360,7 @@ class ListUserQueryTest extends TestCase
         Queue::fake();
 
         // or
-        
+
         Queue::fake([
             ExampleJob::class,
         ]);
@@ -430,6 +381,35 @@ class ListUserQueryTest extends TestCase
     }
 ```
 
+### Queue:: assertNotPushed
+
+```php
+<?php
+
+	/** @test */
+    public function queue_assert_not_pushed(): void
+    {
+        Queue::fake();
+
+        // or
+
+        Queue::fake([
+            ExampleJob::class,
+        ]);
+
+        // queue a job
+        ExampleJob::dispatch();
+
+        // assert that a job was not pushed
+        Queue::assertNotPushed(ExampleJob::class);
+
+        // asser that a job was not pushed with a given payload...
+        Queue::assertNotPushed(ExampleJob::class, function (ExampleJob $job) {
+            return $job->exampleProperty === 'exampleValue';
+        });
+    }
+```
+
 ### Queue:: assertNothingPushed
 
 
@@ -442,7 +422,7 @@ class ListUserQueryTest extends TestCase
         Queue::fake();
 
         // or
-        
+
         Queue::fake([
             ExampleJob::class,
         ]);
@@ -452,9 +432,6 @@ class ListUserQueryTest extends TestCase
 
         // assert that no jobs were pushed...
         Queue::assertNothingPushed();
-
-        // or
-        Queue::assertNothingPushed(ExampleJob::class);
     }
 ```
 
@@ -470,7 +447,7 @@ class ListUserQueryTest extends TestCase
         Queue::fake();
 
         // or
-        
+
         Queue::fake([
             ExampleJob::class,
         ]);
@@ -503,7 +480,7 @@ class ListUserQueryTest extends TestCase
         Queue::fake();
 
         // or
-        
+
         Queue::fake([
             ExampleJob::class,
         ]);
@@ -517,23 +494,13 @@ class ListUserQueryTest extends TestCase
             new YetAnotherJob,
         ]);
 
-        // assert that a job was pushed with a given chain on a given queue...
-        Queue::assertPushedWithChain('queue-name', ExampleJob::class, [
-            new AnotherJob,
-            new YetAnotherJob,
-        ]);
-
-        // assert that a job was pushed with a given chain a given number of times...
+        // assert that a job was pushed with a given chain...
         Queue::assertPushedWithChain(ExampleJob::class, [
             new AnotherJob,
             new YetAnotherJob,
-        ], 1);
-
-        // assert that a job was pushed with a given chain a given number of times on a given queue...
-        Queue::assertPushedWithChain('queue-name', ExampleJob::class, [
-            new AnotherJob,
-            new YetAnotherJob,
-        ], 1);
+        ], function ($job) {
+            return $job->user->id === 1;
+        });
     }
 ```
 
@@ -549,7 +516,7 @@ class ListUserQueryTest extends TestCase
         Queue::fake();
 
         // or
-        
+
         Queue::fake([
             ExampleJob::class,
         ]);
@@ -560,117 +527,9 @@ class ListUserQueryTest extends TestCase
         // assert that a job was pushed without a given chain...
         Queue::assertPushedWithoutChain(ExampleJob::class);
 
-        // assert that a job was pushed without a given chain on a given queue...
-        Queue::assertPushedWithoutChain('queue-name', ExampleJob::class);
-
-        // assert that a job was pushed without a given chain a given number of times...
-        Queue::assertPushedWithoutChain(ExampleJob::class, 1);
-
-        // assert that a job was pushed without a given chain a given number of times on a given queue...
-        Queue::assertPushedWithoutChain('queue-name', ExampleJob::class, 1);
-    }
-```
-
-### Queue:: assertPushedWithCallback
-
-
-```php
-<?php
-
-	/** @test */
-    public function queue_assert_pushed_with_callback(): void
-    {
-        Queue::fake();
-
-        // or
-        
-        Queue::fake([
-            ExampleJob::class,
-        ]);
-
-        // queue a job
-        ExampleJob::dispatch();
-
-        // assert that a job was pushed with a given callback...
-        Queue::assertPushedWithCallback(ExampleJob::class, function ($job) {
-            return $job->example == 'example';
+        // assert that a job was pushed without a given chain and with a given payload...
+        Queue::assertPushedWithoutChain(ExampleJob::class, function ($job) {
+            return $job->exampleProperty === 'exampleValue';
         });
-
-        // assert that a job was pushed with a given callback on a given queue...
-        Queue::assertPushedWithCallback('queue-name', ExampleJob::class, function ($job) {
-            return $job->example == 'example';
-        });
-
-        // assert that a job was pushed with a given callback a given number of times...
-        Queue::assertPushedWithCallback(ExampleJob::class, function ($job) {
-            return $job->example == 'example';
-        }, 1);
-
-        // assert that a job was pushed with a given callback a given number of times on a given queue...
-        Queue::assertPushedWithCallback('queue-name', ExampleJob::class, function ($job) {
-            return $job->example == 'example';
-        }, 1);
-    }
-```
-
-### Queue:: assertPushedWithoutCallback
-
-
-```php
-<?php
-
-	/** @test */
-    public function queue_assert_pushed_without_callback(): void
-    {
-        Queue::fake();
-
-        // or
-        
-        Queue::fake([
-            ExampleJob::class,
-        ]);
-
-        // queue a job
-        ExampleJob::dispatch();
-
-        // assert that a job was pushed without a given callback...
-        Queue::assertPushedWithoutCallback(ExampleJob::class);
-
-        // assert that a job was pushed without a given callback on a given queue...
-        Queue::assertPushedWithoutCallback('queue-name', ExampleJob::class);
-
-        // assert that a job was pushed without a given callback a given number of times...
-        Queue::assertPushedWithoutCallback(ExampleJob::class, 1);
-
-        // assert that a job was pushed without a given callback a given number of times on a given queue...
-        Queue::assertPushedWithoutCallback('queue-name', ExampleJob::class, 1);
-    }
-```
-
-### Queue:: assertPushedAfterResponse
-
-
-```php
-<?php
-
-	/** @test */
-    public function queue_assert_pushed_after_response(): void
-    {
-        Queue::fake();
-
-        // or
-        
-        Queue::fake([
-            ExampleJob::class,
-        ]);
-
-        // queue a job
-        ExampleJob::dispatch();
-
-        // assert that a job was pushed after (and not before) a given job...
-        Queue::assertPushedAfterResponse(ExampleJob::class, AnotherJob::class);
-
-        // assert that a job was pushed after (and not before) a given job on a given queue...
-        Queue::assertPushedAfterResponse(ExampleJob::class, AnotherJob::class, 'queue-name');
     }
 ```

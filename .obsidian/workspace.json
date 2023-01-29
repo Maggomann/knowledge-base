@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "20bbb8d4f3704eec",
+        "id": "f0f9d38467ec8f91",
         "type": "tabs",
         "children": [
           {
-            "id": "eccba492f6567105",
+            "id": "09566577c176fa42",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/Shortcuts.de.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -70,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 243.5
   },
   "right": {
     "id": "1129bf8d67d5a148",
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Shortcuts.de.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Shortcuts.de.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "docs/Shortcuts.de.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -149,8 +140,10 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "eccba492f6567105",
+  "active": "09566577c176fa42",
   "lastOpenFiles": [
+    "Shortcuts.de.md",
+    "VS-Code-Plugins.de.md",
     "docs/laravel/collection.de.md",
     "docs/Shortcuts.de.md",
     "docs/laravel/eloquent.de.md",
@@ -158,8 +151,6 @@
     "docs/laravel/route.de.md",
     "docs/laravel/tests.de.md",
     "docs/laravel/validation.de.md",
-    "docs/mkdocs/commands.de.md",
-    "docs/valet.de.md",
-    "docs/phpstan.de.md"
+    "docs/mkdocs/commands.de.md"
   ]
 }
