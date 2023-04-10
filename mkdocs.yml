@@ -31,8 +31,8 @@ plugins:
       combined: true
   - search:
       lang:
-        - de
         - en
+        - de
   - minify:
       minify_html: true
       minify_js: true
