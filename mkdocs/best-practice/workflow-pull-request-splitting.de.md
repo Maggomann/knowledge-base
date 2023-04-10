@@ -11,6 +11,7 @@ tags:
 ---
 
 ## Beispiel-Workflow
+
 Hier ein Beispiel-Workflow für das Erstellen und Verwalten von Blog-Einträgen mit Pull-Request-Splitting:
 
 ``` mermaid

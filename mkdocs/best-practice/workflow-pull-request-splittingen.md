@@ -11,6 +11,7 @@ tags:
 ---
 
 ## Sample workflow
+
 Here's a sample workflow for creating and managing blog posts with pull request splitting:
 
 ``` mermaid
