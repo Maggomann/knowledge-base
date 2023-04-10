@@ -47,17 +47,14 @@ plugins:
   - i18n:
       default_language: de
       material_alternate: true
+      enable_nav_translation: false
       languages:
         en:
           name: Englisch
           build: true
-          link: /en/
         de:
           name: Deutsch
-          build: true
-          link: /knowledge-base/de/
-      nav_translations:
-        de:
+          build: false
 extra:
   social:
     - icon: fontawesome/brands/twitter

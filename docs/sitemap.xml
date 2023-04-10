@@ -5,7 +5,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="None./"/>
          
     </url>
     <url>
@@ -13,7 +13,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/pest/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/pest/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonepest/"/>
          
     </url>
     <url>
@@ -21,7 +21,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/php/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/php/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonephp/"/>
          
     </url>
     <url>
@@ -29,7 +29,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/phpstan/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/phpstan/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonephpstan/"/>
          
     </url>
     <url>
@@ -37,7 +37,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/shortcuts/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/shortcuts/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Noneshortcuts/"/>
          
     </url>
     <url>
@@ -45,7 +45,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/valet/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/valet/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonevalet/"/>
          
     </url>
     <url>
@@ -53,7 +53,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/vs-code-plugins/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/vs-code-plugins/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonevs-code-plugins/"/>
          
     </url>
     <url>
@@ -61,7 +61,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/best-practice/conventional-commits/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/best-practice/conventional-commits/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonebest-practice/conventional-commits/"/>
          
     </url>
     <url>
@@ -69,7 +69,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/best-practice/pull-request-splitting/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/best-practice/pull-request-splitting/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonebest-practice/pull-request-splitting/"/>
          
     </url>
     <url>
@@ -77,15 +77,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/best-practice/workflow-pull-request-splitting/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/best-practice/workflow-pull-request-splitting/"/>
-         
-    </url>
-    <url>
-         <loc>Nonebest-practice/workflow-pull-request-splittingen/</loc>
-         <lastmod>2023-04-10</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/best-practice/workflow-pull-request-splittingen/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/best-practice/workflow-pull-request-splittingen/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonebest-practice/workflow-pull-request-splitting/"/>
          
     </url>
     <url>
@@ -93,7 +85,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/clean-code/boy-scouting-principle/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/clean-code/boy-scouting-principle/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Noneclean-code/boy-scouting-principle/"/>
          
     </url>
     <url>
@@ -101,7 +93,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/clean-code/solid-design-principles/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/clean-code/solid-design-principles/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Noneclean-code/solid-design-principles/"/>
          
     </url>
     <url>
@@ -109,7 +101,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/composer/pest/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/composer/pest/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonecomposer/pest/"/>
          
     </url>
     <url>
@@ -117,7 +109,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/github/git/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/github/git/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonegithub/git/"/>
          
     </url>
     <url>
@@ -125,7 +117,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/github/issues-verlinken/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/github/issues-verlinken/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonegithub/issues-verlinken/"/>
          
     </url>
     <url>
@@ -133,7 +125,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/arr/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/laravel/arr/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonelaravel/arr/"/>
          
     </url>
     <url>
@@ -141,7 +133,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/collection/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/laravel/collection/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonelaravel/collection/"/>
          
     </url>
     <url>
@@ -149,7 +141,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/eloquent/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/laravel/eloquent/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonelaravel/eloquent/"/>
          
     </url>
     <url>
@@ -157,7 +149,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/migrations/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/laravel/migrations/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonelaravel/migrations/"/>
          
     </url>
     <url>
@@ -165,7 +157,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/route/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/laravel/route/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonelaravel/route/"/>
          
     </url>
     <url>
@@ -173,7 +165,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/tests/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/laravel/tests/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonelaravel/tests/"/>
          
     </url>
     <url>
@@ -181,7 +173,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/validation/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/laravel/validation/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonelaravel/validation/"/>
          
     </url>
     <url>
@@ -189,7 +181,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/mkdocs/commands/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/mkdocs/commands/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonemkdocs/commands/"/>
          
     </url>
     <url>
@@ -197,7 +189,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/mkdocs/install/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/mkdocs/install/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonemkdocs/install/"/>
          
     </url>
     <url>
@@ -205,7 +197,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/mkdocs/pip/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/mkdocs/pip/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonemkdocs/pip/"/>
          
     </url>
     <url>
@@ -213,7 +205,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/mkdocs/plugins/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/mkdocs/plugins/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonemkdocs/plugins/"/>
          
     </url>
     <url>
@@ -221,7 +213,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/mkdocs/python3/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/mkdocs/python3/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonemkdocs/python3/"/>
          
     </url>
     <url>
@@ -229,7 +221,7 @@
          <lastmod>2023-04-10</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/mkdocs/templates/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonede/mkdocs/templates/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonemkdocs/templates/"/>
          
     </url>
 </urlset>
