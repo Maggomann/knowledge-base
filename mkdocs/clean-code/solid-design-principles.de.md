@@ -8,7 +8,7 @@ tags:
 - solid
 ---
 
-# Boy-Scouting-Principle - Pfadfinderregel
+# Solid-Design-Principles
 
 ## Zusammenfassung
 
@@ -85,6 +85,7 @@ In diesem Beispiel ist die `Customer`-Klasse nur für das Speichern von Kundenin
 Software-Entitäten (Klassen, Module, Funktionen usw.) sollten offen für Erweiterungen, aber geschlossen für Änderungen sein. Das bedeutet, dass die Funktionalität einer Software-Einheit durch Hinzufügen neuer Code-Module oder Klassen erweitert werden sollte, ohne den bestehenden Code ändern zu müssen.
 
 ```php
+<?php
 
 // bad
 class AreaCalculator {
@@ -147,11 +148,11 @@ class AreaCalculator {
 /*
 In diesem Beispiel sind die Klassen `Circle` und `Rectangle` geschlossen für Änderungen, da sie ihre Funktionalität nicht ändern, wenn neue Formen hinzugefügt werden. Die `AreaCalculator`-Klasse ist offen für Erweiterungen, da sie einfach erweitert werden kann, um die Berechnung der Fläche neuer Formen zu unterstützen.
 */
- ```
+```
 
 ### Liskov Substitution Principle (LSP)
 
-Liskov Substitution Principle (LSP): Objekte einer abgeleiteten Klasse sollten durch Objekte ihrer Basisklasse ersetzbar sein, ohne das Programm zu beeinträchtigen. Das bedeutet, dass eine abgeleitete Klasse alle Verhaltensweisen ihrer Basisklasse übernehmen sollte, ohne dass das Verhalten des Programms sich ändert.
+Objekte einer abgeleiteten Klasse sollten durch Objekte ihrer Basisklasse ersetzbar sein, ohne das Programm zu beeinträchtigen. Das bedeutet, dass eine abgeleitete Klasse alle Verhaltensweisen ihrer Basisklasse übernehmen sollte, ohne dass das Verhalten des Programms sich ändert.
 
 ```php
 <?php
