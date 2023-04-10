@@ -11,8 +11,13 @@
             "id": "939157d0ed0a94af",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "README.md"
+              }
             }
           }
         ]
@@ -154,7 +163,6 @@
     "docs/assets/javascripts/lunr/min/lunr.pt.min.js",
     "docs/assets/javascripts/lunr/min/lunr.no.min.js",
     "docs/assets/images/favicon.png",
-    "docs/best-practice/conventional-commits.de.md",
     "mkdocs/mkdocs/templates.de.md",
     "mkdocs/mkdocs/python3.de.md",
     "mkdocs/mkdocs/plugins.de.md",
@@ -168,9 +176,9 @@
     "mkdocs/laravel/eloquent.de.md",
     "mkdocs/laravel/collection.de.md",
     "mkdocs/laravel/arr.de.md",
-    "mkdocs/composer/pest.de.md",
     "mkdocs/github/issues-verlinken.de.md",
     "mkdocs/github/git.de.md",
+    "mkdocs/composer/pest.de.md",
     "mkdocs/clean-code/solid-design-principles.de.md",
     "mkdocs/clean-code/boy-scouting-principle.de.md",
     "mkdocs/best-practice/workflow-pull-request-splittingen.md",
@@ -179,6 +187,7 @@
     "mkdocs/best-practice/conventional-commits.de.md",
     "mkdocs/vs-code-plugins.de.md",
     "mkdocs/valet.de.md",
+    "mkdocs/shortcuts.de.md",
     "site/assets/images/favicon.png"
   ]
 }

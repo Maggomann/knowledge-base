@@ -60,7 +60,7 @@ Wenn du dich jedoch für die Verwendung von Klammern im Präfix entscheidest, so
 
 ### Offizielle Dokumentation
 
-https://www.conventionalcommits.org
+[Conventional Commits](https://www.conventionalcommits.org)
 
 ### Commitizen
 
@@ -68,4 +68,4 @@ https://www.conventionalcommits.org
 
 Die Commitizen-Webanwendung stellt eine grafische Benutzeroberfläche zur Verfügung, die Entwicklern dabei hilft, durch einen interaktiven Prozess eine standardisierte Commit-Nachricht zu erstellen. Dadurch kann sichergestellt werden, dass Commit-Nachrichten konsistent und lesbar sind, was dazu beitragen kann, die Zusammenarbeit in einem Team zu erleichtern.
 
-https://commitizen-tools.github.io/commitizen/
+[Commitizen](https://commitizen-tools.github.io/commitizen/)
