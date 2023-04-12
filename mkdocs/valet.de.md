@@ -11,25 +11,35 @@ tags:
 
 ## Kommandos
 
-### Valet: Erstellt V-Hosts Links: htttp://www.meine-lokale-webseite.test und htttps://www.meine-lokale-webseite.test
+### Erstellt V-Hosts Links
 
 ```bash
 valet link --secure meine-lokale-webseite
 ```
 
-### Valet: Löscht die V-Hosts Links: htttp://www.meine-lokale-webseite.test und htttps://www.meine-lokale-webseite.test
+!!! info
+
+htttp://www.meine-lokale-webseite.test 
+htttps://www.meine-lokale-webseite.test
+
+### Löscht die V-Hosts Links
 
 ```bash
 valet unlink --secure meine-lokale-webseite
 ```
 
-### Valet: Alle registrierten Valet-Links anzeigen
+!!! info
+
+htttp://www.meine-lokale-webseite.test 
+htttps://www.meine-lokale-webseite.test
+
+### Alle registrierten Valet-Links anzeigen
 
 ```bash
 valet links
 ```
 
-### Valet: Listet alle verfügbaren Valet Kommandos auf
+### Listet alle verfügbaren Valet Kommandos auf
 
 ```bash
 valet -h

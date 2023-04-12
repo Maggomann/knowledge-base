@@ -28,7 +28,3 @@ git push origin +main
 ```bash
 composer update --lock
 ```
-
-```bash
-composer update --lock s
-```

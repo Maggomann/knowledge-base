@@ -65,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 507.5
   },
   "right": {
     "id": "1129bf8d67d5a148",
@@ -142,7 +142,6 @@
   },
   "active": "47f1fbc1cab5ed51",
   "lastOpenFiles": [
-    "docs/assets/javascripts/lunr/min/lunr.da.min.js",
     "docs/assets/javascripts/lunr/min/lunr.zh.min.js",
     "docs/assets/javascripts/lunr/min/lunr.vi.min.js",
     "docs/assets/javascripts/lunr/min/lunr.tr.min.js",
@@ -153,15 +152,17 @@
     "docs/assets/javascripts/lunr/min/lunr.ru.min.js",
     "docs/assets/javascripts/lunr/min/lunr.ro.min.js",
     "docs/assets/javascripts/lunr/min/lunr.pt.min.js",
+    "docs/assets/javascripts/lunr/min/lunr.no.min.js",
     "docs/assets/images/favicon.png",
+    "docs/best-practice/workflow-release-into-master.de.md",
     "mkdocs/mkdocs/templates.de.md",
     "mkdocs/mkdocs/python3.de.md",
     "mkdocs/mkdocs/plugins.de.md",
     "mkdocs/mkdocs/pip.de.md",
-    "mkdocs/mkdocs/commands.de.md",
     "mkdocs/mkdocs/install.de.md",
-    "mkdocs/laravel/tests.de.md",
+    "mkdocs/mkdocs/commands.de.md",
     "mkdocs/laravel/validation.de.md",
+    "mkdocs/laravel/tests.de.md",
     "mkdocs/laravel/route.de.md",
     "mkdocs/laravel/migrations.de.md",
     "mkdocs/laravel/eloquent.de.md",
@@ -172,13 +173,12 @@
     "mkdocs/composer/pest.de.md",
     "mkdocs/clean-code/solid-design-principles.de.md",
     "mkdocs/clean-code/boy-scouting-principle.de.md",
+    "mkdocs/best-practice/workflow-release-into-master.en.md",
+    "mkdocs/best-practice/workflow-release-into-master.de.md",
     "mkdocs/best-practice/workflow-pull-request-splitting.en.md",
     "mkdocs/best-practice/workflow-pull-request-splitting.de.md",
     "mkdocs/best-practice/pull-request-splitting.de.md",
     "mkdocs/best-practice/conventional-commits.de.md",
-    "mkdocs/vs-code-plugins.de.md",
-    "mkdocs/valet.de.md",
-    "mkdocs/shortcuts.de.md",
     "site/assets/images/favicon.png",
     "sites/assets/images/favicon.png"
   ]
