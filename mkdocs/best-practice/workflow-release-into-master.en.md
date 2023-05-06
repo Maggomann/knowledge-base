@@ -1,3 +1,14 @@
+---
+category: github-workflow
+sub_category_1: workflow-release-into-master
+language: en
+tags:
+- git
+- github
+- best-practice
+- pull-request
+- workflow-release-into-master
+---
 
 ## Workflow release into master
 
