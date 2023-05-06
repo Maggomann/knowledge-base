@@ -9,6 +9,22 @@
          
     </url>
     <url>
+         <loc>Noneawesome/</loc>
+         <lastmod>2023-05-06</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/awesome/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Noneawesome/"/>
+         
+    </url>
+    <url>
+         <loc>Nonemac-os-commands/</loc>
+         <lastmod>2023-05-06</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/mac-os-commands/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonemac-os-commands/"/>
+         
+    </url>
+    <url>
          <loc>Nonepest/</loc>
          <lastmod>2023-05-06</lastmod>
          <changefreq>daily</changefreq>
@@ -57,11 +73,11 @@
          
     </url>
     <url>
-         <loc>Nonebest-practice/conventional-commits/</loc>
+         <loc>Noneatlassian/delete-boards/</loc>
          <lastmod>2023-05-06</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/best-practice/conventional-commits/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonebest-practice/conventional-commits/"/>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/atlassian/delete-boards/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Noneatlassian/delete-boards/"/>
          
     </url>
     <url>
@@ -89,11 +105,27 @@
          
     </url>
     <url>
+         <loc>Nonebest-practice/coding-standards/conventional-commits/</loc>
+         <lastmod>2023-05-06</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/best-practice/coding-standards/conventional-commits/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonebest-practice/coding-standards/conventional-commits/"/>
+         
+    </url>
+    <url>
          <loc>Nonebest-practice/coding-standards/naming-conventions/</loc>
          <lastmod>2023-05-06</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/best-practice/coding-standards/naming-conventions/"/>
          <xhtml:link rel="alternate" hreflang="de" href="Nonebest-practice/coding-standards/naming-conventions/"/>
+         
+    </url>
+    <url>
+         <loc>Nonebest-practice/coding-standards/semantic-versioning/</loc>
+         <lastmod>2023-05-06</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/best-practice/coding-standards/semantic-versioning/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonebest-practice/coding-standards/semantic-versioning/"/>
          
     </url>
     <url>
@@ -110,14 +142,6 @@
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/clean-code/solid-design-principles/"/>
          <xhtml:link rel="alternate" hreflang="de" href="Noneclean-code/solid-design-principles/"/>
-         
-    </url>
-    <url>
-         <loc>Nonecomposer/pest/</loc>
-         <lastmod>2023-05-06</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/composer/pest/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonecomposer/pest/"/>
          
     </url>
     <url>
@@ -169,6 +193,14 @@
          
     </url>
     <url>
+         <loc>Nonelaravel/own-packages/</loc>
+         <lastmod>2023-05-06</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/own-packages/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonelaravel/own-packages/"/>
+         
+    </url>
+    <url>
          <loc>Nonelaravel/route/</loc>
          <lastmod>2023-05-06</lastmod>
          <changefreq>daily</changefreq>
@@ -190,6 +222,14 @@
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/validation/"/>
          <xhtml:link rel="alternate" hreflang="de" href="Nonelaravel/validation/"/>
+         
+    </url>
+    <url>
+         <loc>Nonelaravel/composer/pest/</loc>
+         <lastmod>2023-05-06</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/composer/pest/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonelaravel/composer/pest/"/>
          
     </url>
     <url>
@@ -262,6 +302,14 @@
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/mkdocs/templates/"/>
          <xhtml:link rel="alternate" hreflang="de" href="Nonemkdocs/templates/"/>
+         
+    </url>
+    <url>
+         <loc>Nonewiki/iaas/</loc>
+         <lastmod>2023-05-06</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/wiki/iaas/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonewiki/iaas/"/>
          
     </url>
 </urlset>
