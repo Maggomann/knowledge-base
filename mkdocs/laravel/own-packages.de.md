@@ -8,8 +8,6 @@ tags:
 - package-entwicklung
 ---
 
-maggomann/filament-model-translator
-
 ## Beispiel anhand maggomann/filament-model-translator
 
  composer,json-File:
@@ -23,7 +21,7 @@ Im CLI folgenden Befehl ausführen:
 composer config repositories.maggomann/filament-model-translator '{"type": "path", "url": "../../LaravelPackages/filament-model-translator"}' --file composer.json
 
 composer update
-````
+```
 
 Dies sollte folgende Ausgabe wiedergeben:
 
