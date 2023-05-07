@@ -41,11 +41,19 @@
          
     </url>
     <url>
-         <loc>Noneatlassian/delete-boards/</loc>
+         <loc>Noneatlassian/manage-kanban-boards/</loc>
          <lastmod>2023-05-07</lastmod>
          <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/atlassian/delete-boards/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Noneatlassian/delete-boards/"/>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/atlassian/manage-kanban-boards/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Noneatlassian/manage-kanban-boards/"/>
+         
+    </url>
+    <url>
+         <loc>Noneaws/access-key-change/</loc>
+         <lastmod>2023-05-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/aws/access-key-change/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Noneaws/access-key-change/"/>
          
     </url>
     <url>
@@ -222,6 +230,14 @@
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/composer/pest/"/>
          <xhtml:link rel="alternate" hreflang="de" href="Nonelaravel/composer/pest/"/>
+         
+    </url>
+    <url>
+         <loc>Nonelaravel/forge/envoyer-and-forge/</loc>
+         <lastmod>2023-05-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/forge/envoyer-and-forge/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonelaravel/forge/envoyer-and-forge/"/>
          
     </url>
     <url>
