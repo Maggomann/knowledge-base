@@ -10,10 +10,12 @@ tags:
 
 ## Beispiel anhand maggomann/filament-model-translator
 
- composer,json-File:
+composer,json-File:
 
+```json
 "require": {
 	"maggomann/filament-model-translator": "dev-master",
+```
 
 Im CLI folgenden Befehl ausführen:
 

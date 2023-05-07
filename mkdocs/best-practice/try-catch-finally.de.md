@@ -4,7 +4,6 @@ sub_category_1: destruct
 language: de
 tags:
 - php
-- desctruct
 - try-catch
 ---
 
@@ -16,7 +15,7 @@ Beim Ausführen unserer Skripte treten Fehler und Ausnahmen auf, das gehört zur
 Jedoch ist es nötig, Fehler voneinander zu unterscheiden und entsprechend zu behandeln.
 Dafür können wir in PHP die Schlüsselwörter **try**, **catch** und **finally** verwenden.
 
-### **1\. Ein einfacher PHP try catch Block**
+### try catch Block
 
 Fehler und Ausnahmen können wir behandeln, wenn der Code, der diese produziert, in einem **try** Block geschrieben wird.
 Mit dem Schlüsselwort **catch** können wir diese dann abfangen.
@@ -30,7 +29,7 @@ try {
 }
 ```
 
-#### **1.1 Fehler und Ausnahmen**
+#### Fehler und Ausnahmen
 
 Ein Fehler tritt zum Beispiel auf, wenn du eine Funktion aufrufst, die nie definiert wurde.
 
@@ -84,7 +83,7 @@ Output:
 Eine Ausnahme ist aufgetreten
 ```
 
-#### **1.2 Beide abfangen mit Throwable**
+#### Mehrere catch Blöcke
 
 Die vorigen Erklärungen haben sowohl Exceptions als auch Errors behandelt. Um beide abzufangen, könntest du zwei **catch** Blöcke hintereinander definieren.
 
@@ -125,7 +124,7 @@ try {
 // Schnapp sie dir alle!
 ```
 
-### **2\. finally um den Block zu beenden**
+### finally Block
 
 Mit dem Schlüsselwort **finally** kannst du deinem Block weiteren Code hinzufügen.
 **finally** ermöglicht es dir, Code zu schreiben, der ausgeführt wird egal ob ein Fehler auftritt oder nicht.
@@ -151,7 +150,7 @@ Exception!
 Finally!
 ```
 
-#### **2.1 Vorsicht mit return**!
+#### return in finally
 
 **return** kann bei Verwendung von **finally** zu unerwarteten Ergebnissen führen.
 
@@ -183,85 +182,10 @@ Finally!
 Im vorigen Beispiel wurde der Wert von **return** aus dem **catch** Block einfach mit dem aus **finally** überschrieben.
 Dasselbe würde passieren, wenn **return** bereits einen Wert aus **try** empfangen hätte.
 
-### **3\. Fazit** – PHP try & catch
+### Fazit
 
 Mit **try**, **catch** und **finally** stellt uns PHP mächtige Werkzeuge zur Verfügung, um Ausnahmefälle und Fehler zu behandeln.
 Damit können wir Logs erstellen, alternative Routinen ausführen oder einfach unser Skript stoppen.
 Vorsicht ist jedoch geboten, wenn wir unseren Code in solchen Blöcken mit **return** verwenden, da dies zu unerwarteten Ergebnissen führen kann.
 
 - [Original Artikel von Patrick](https://codegree.de/php-try-catch/)
-
----
-
-## When does PHP call __destruct()?
-
-In PHP,
-
-`__construct()
-` is called while creating an object and
-`__destruct()
-` is called while the object is being removed from memory. Using this knowledge, we can create more fluent APIs as demonstrated by Freek Van der Herten in this short video.
-
-Now let's see when PHP calls
-
-`__destruct()
-` exactly.
-
-An object is removed from memory if you explicitly remove it:
-
-```php
-<?php
-$object = new Object();
-
-unset($object); // __destruct will be called immediately.
-
-$object = null; // __destruct will be called immediately.
-```
-
-It's also called when the scope where the object live is about to be terminated, for example at the end of a controller method:
-
-```php
-<?php
-function store(Request $request)
-{
-   $object = new Object();
-
-   User::create(...);
-
-   // __destruct will be called here.
-
-   return view('welcome');
-}
-```
-
-Even if we're within a long running process, queued job for example, __destruct will be called before the end of the handle method:
-
-```php
-<?php
-function handle()
-{
-   $object = new Object();
-
-   User::create(...);
-
-   // __destruct will be called here.
-}
-```
-
-It'll also be called when the script is being terminated:
-
-```php
-<?php
-function handle()
-{
-   $object = new Object();
-
-   User::create(...);
-
-   // __destruct will be called here.
-
-   exit(1);
-}
-```
-
-- [Original article by Mohamed Said](https://divinglaravel.com/when-does-php-call-__destruct)
