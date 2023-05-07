@@ -65,6 +65,14 @@
          
     </url>
     <url>
+         <loc>Nonebest-practice/race-condition/</loc>
+         <lastmod>2023-05-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/best-practice/race-condition/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonebest-practice/race-condition/"/>
+         
+    </url>
+    <url>
          <loc>Nonebest-practice/try-catch-finally/</loc>
          <lastmod>2023-05-07</lastmod>
          <changefreq>daily</changefreq>
@@ -177,14 +185,6 @@
          
     </url>
     <url>
-         <loc>Nonelaravel/own-packages/</loc>
-         <lastmod>2023-05-07</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/own-packages/"/>
-         <xhtml:link rel="alternate" hreflang="de" href="Nonelaravel/own-packages/"/>
-         
-    </url>
-    <url>
          <loc>Nonelaravel/route/</loc>
          <lastmod>2023-05-07</lastmod>
          <changefreq>daily</changefreq>
@@ -230,6 +230,38 @@
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/forge/queue-worker/"/>
          <xhtml:link rel="alternate" hreflang="de" href="Nonelaravel/forge/queue-worker/"/>
+         
+    </url>
+    <url>
+         <loc>Nonelaravel/packages/own-packages/</loc>
+         <lastmod>2023-05-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/packages/own-packages/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonelaravel/packages/own-packages/"/>
+         
+    </url>
+    <url>
+         <loc>Nonelaravel/packages/satis/</loc>
+         <lastmod>2023-05-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/packages/satis/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonelaravel/packages/satis/"/>
+         
+    </url>
+    <url>
+         <loc>Nonelaravel/tipps/calculation/</loc>
+         <lastmod>2023-05-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/tipps/calculation/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonelaravel/tipps/calculation/"/>
+         
+    </url>
+    <url>
+         <loc>Nonelaravel/tipps/migrations-unique/</loc>
+         <lastmod>2023-05-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/laravel/tipps/migrations-unique/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonelaravel/tipps/migrations-unique/"/>
          
     </url>
     <url>
@@ -318,6 +350,14 @@
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="Noneen/wiki/iaas/"/>
          <xhtml:link rel="alternate" hreflang="de" href="Nonewiki/iaas/"/>
+         
+    </url>
+    <url>
+         <loc>Nonewiki/linux-screen/</loc>
+         <lastmod>2023-05-07</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="Noneen/wiki/linux-screen/"/>
+         <xhtml:link rel="alternate" hreflang="de" href="Nonewiki/linux-screen/"/>
          
     </url>
 </urlset>

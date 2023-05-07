@@ -1,65 +1,59 @@
 ---
 category: laravel
-sub_category_1: database
+sub_category_1: migrations
 language: de
 tags:
 - laravel
 - databse
 - DB
-- unique
-- migration
+- migrations
 ---
-# Migrations
 
-## Unique columns
+# Laravel Migrations
 
-__Laravel Example 1__:
+Laravel Migrations ist eine Versionskontrolle für die Datenbank mit der Tabellen definiert, angepasst und gelöscht werden könnenn. Migrations erleichtern vor allem die Zusammenarbeit innerhalb eines Teams.
 
-```php
-<?php
+## Erstellen einer Migration
 
-DB::update("
-    ALTER TABLE tournament_league_game_days
-    ADD COLUMN game_schedule_day_unique varchar (512)
-    GENERATED ALWAYS AS
-    (
-        CONCAT(
-            CONCAT(day, '#', game_schedule_id),
-            '#',
-            IF(deleted_at IS NULL, '-',  deleted_at)
-        )
-    ) VIRTUAL;
-
-");
-
-DB::update("
-    CREATE UNIQUE INDEX game_schedule_day_unique ON tournament_league_game_days (game_schedule_day_unique);
-");
-
+```bash
+php artisan make:migration create_your_table_name_table
 ```
 
-__Laravel Example 2__:
+## Migrationen ausführen
 
-```php
-<?php
+Mit folgendem Befehl werden alle up Methoden aller migrations-Dateien ausgeführt, die bis Dato noch nicht ausgeführt wurden.
 
-Schema::table('tournament_league_game_days', function (Blueprint $table) {
-    $table->string('game_schedule_day_unique')
-        ->virtualAs(
-            DB::raw(
-                "CONCAT(
-                    CONCAT(day, '#', game_schedule_id),
-                    '#',
-                    IF(deleted_at IS NULL, '-',  deleted_at)
-                )"
-            )
-        );
-});
-
-Schema::table('tournament_league_game_days', function (Blueprint $table) {
-    $table->unique(['game_schedule_day_unique'], 'game_schedule_day_unique_index');
-});
-
+```bash
+php artisan migrate
 ```
 
-- [Original tweet by Tobias_Petry.sql](https://twitter.com/tobias_petry/status/1454085321180819457?s=12)
+## Welche Migrationen wurden bereits ausgeführt
+
+```bash
+php artisan migrate:status
+```
+
+## Migration zurückdrehen
+
+Mit diesem Befehl werden alle down-Methoden der Migrationsdateien ausgeführt die vorab durch den Befehl php artisan migrate ausgeführt wurden.
+
+```bash
+php artisan migrate:rollback
+```
+
+## Angeben wieviele php artisan migrate-Befehle wieder zurückgedreht werden sollen
+
+In diesem Fall werden alle down-Methoden der Migrationsdateien ausgeführt, die mit den letzten drei php artisan migrate Befehlen eingespielt wurden.
+
+```bash
+php artisan migrate:rollback --step=3
+```
+
+## Migrationen in einer SQL-Datei zusammenführen (squaschen)
+
+```bash
+php artisan schema:dump
+
+# Dump the current database schema and prune all existing migrations...
+php artisan schema:dump --prune
+```

@@ -1,65 +1,58 @@
 ---
 category: laravel
-sub_category_1: database
+sub_category_1: migrations
 language: en
 tags:
 - laravel
 - databse
 - DB
-- unique
-- migration
+- migrations
 ---
-# Migrations
+# Laravel Migrations
 
-## Unique columns
+Laravel Migrations is a version control system for databases that allows defining, modifying, and deleting tables. Migrations make collaboration within a team easier.
 
-__Laravel Example 1__:
+## Creating a Migration
 
-```php
-<?php
-
-DB::update("
-    ALTER TABLE tournament_league_game_days
-    ADD COLUMN game_schedule_day_unique varchar (512)
-    GENERATED ALWAYS AS
-    (
-        CONCAT(
-            CONCAT(day, '#', game_schedule_id),
-            '#',
-            IF(deleted_at IS NULL, '-',  deleted_at)
-        )
-    ) VIRTUAL;
-
-");
-
-DB::update("
-    CREATE UNIQUE INDEX game_schedule_day_unique ON tournament_league_game_days (game_schedule_day_unique);
-");
-
+```bash
+php artisan make:migration create_your_table_name_table
 ```
 
-__Laravel Example 2__:
+## Running Migrations
 
-```php
-<?php
+This command executes all the up methods of migration files that have not yet been executed.
 
-Schema::table('tournament_league_game_days', function (Blueprint $table) {
-    $table->string('game_schedule_day_unique')
-        ->virtualAs(
-            DB::raw(
-                "CONCAT(
-                    CONCAT(day, '#', game_schedule_id),
-                    '#',
-                    IF(deleted_at IS NULL, '-',  deleted_at)
-                )"
-            )
-        );
-});
-
-Schema::table('tournament_league_game_days', function (Blueprint $table) {
-    $table->unique(['game_schedule_day_unique'], 'game_schedule_day_unique_index');
-});
-
+```bash
+php artisan migrate
 ```
 
-- [Original tweet by Tobias_Petry.sql](https://twitter.com/tobias_petry/status/1454085321180819457?s=12)
+## Checking the Status of Migrations
+
+```bash
+php artisan migrate:status
+```
+
+## Rolling Back Migrations
+
+This command executes all the down methods of migration files that were previously executed by the `php artisan migrate` command.
+
+```bash
+php artisan migrate:rollback
+```
+
+## Specifying How Many `php artisan migrate` Commands to Roll Back
+
+In this case, all the down methods of migration files that were applied with the last three `php artisan migrate` commands will be executed.
+
+```bash
+php artisan migrate:rollback --step=3
+```
+
+## Merging (Squashing) Migrations into a SQL File
+
+```bash
+php artisan schema:dump
+
+# Dump the current database schema and prune all existing migrations...
+php artisan schema:dump --prune
+```
