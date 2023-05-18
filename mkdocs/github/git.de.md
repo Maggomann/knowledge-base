@@ -1,12 +1,14 @@
 ---
 category: github
-sub_category_1: force-push
+sub_category_1: commands
 language: de
 tags:
 - github
 - push
 - force-push
 - github-key
+- lock
+- clone
 ---
 
 # Git
@@ -27,4 +29,10 @@ git push origin +main
 
 ```bash
 composer update --lock
+```
+
+## Repository von GitHub herunterzuladen
+
+```bash
+git clone your-repository-url
 ```

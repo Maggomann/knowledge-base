@@ -11,8 +11,13 @@
             "id": "47f1fbc1cab5ed51",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "mkdocs/laravel/composer/pest.de.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -44,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mysql",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -58,6 +63,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "1159461b6a91c2cf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -81,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "mkdocs/laravel/composer/pest.de.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "mkdocs/laravel/composer/pest.de.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "mkdocs/laravel/composer/pest.de.md"
+              }
             }
           }
         ]
@@ -130,9 +147,9 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "canvas:Neuen Canvas erstellen": false,
       "switcher:Schnellauswahl öffnen": false,
       "graph:Graphen-Ansicht öffnen": false,
-      "canvas:Create new canvas": false,
       "daily-notes:Heutige Notiz öffnen": false,
       "templates:Vorlage einfügen": false,
       "command-palette:Befehlspalette öffnen": false,
@@ -140,45 +157,45 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "47f1fbc1cab5ed51",
+  "active": "af3be9cb12e9be65",
   "lastOpenFiles": [
-    "docs/assets/javascripts/lunr/min/lunr.zh.min.js",
-    "docs/assets/javascripts/lunr/min/lunr.vi.min.js",
-    "docs/assets/javascripts/lunr/min/lunr.tr.min.js",
-    "docs/assets/javascripts/lunr/min/lunr.th.min.js",
-    "docs/assets/javascripts/lunr/min/lunr.ta.min.js",
-    "docs/assets/javascripts/lunr/min/lunr.sv.min.js",
-    "docs/assets/javascripts/lunr/min/lunr.stemmer.support.min.js",
-    "docs/assets/javascripts/lunr/min/lunr.ru.min.js",
-    "docs/assets/javascripts/lunr/min/lunr.ro.min.js",
-    "docs/assets/javascripts/lunr/min/lunr.pt.min.js",
-    "docs/assets/javascripts/lunr/min/lunr.no.min.js",
+    "docs/en/wiki/mysql/index.html",
+    "docs/en/wiki/mysql",
+    "docs/en/wiki/linux-screen/index.html",
+    "docs/en/wiki/linux-screen",
+    "docs/en/wiki/iaas/index.html",
+    "docs/en/wiki/command-line-commands/index.html",
+    "docs/en/wiki/iaas",
+    "docs/en/wiki/command-line-commands",
+    "docs/en/wiki",
+    "docs/en/php/phpstan/index.html",
+    "docs/en/php/phpstan",
     "docs/assets/images/favicon.png",
+    "mkdocs/github/git.en.md",
+    "mkdocs/github/git.de copy.md",
+    "mkdocs/mac-os-commands.en.md",
+    "mkdocs/mac-os-commands.de copy.md",
+    "mkdocs/wiki/mysql.en.md",
+    "mkdocs/wiki/mysql.de copy.md",
+    "mkdocs/wiki/command-line-commands.en.md",
+    "mkdocs/wiki/command-line-commands.de copy.md",
+    "mkdocs/laravel/composer/commands.en.md",
+    "mkdocs/laravel/composer/commands.de copy.md",
+    "mkdocs/laravel/composer/commands.de.md",
+    "mkdocs/laravel/composer/pest.de copy.md",
+    "mkdocs/wiki/command-line-commands.de.md",
+    "mkdocs/wiki/linux-screen.de.md",
+    "mkdocs/wiki/mysql.de.md",
+    "mkdocs/index.md",
+    "mkdocs/awesome.de.md",
+    "mkdocs/mac-os-commands.de.md",
+    "mkdocs/shortcuts.de.md",
+    "mkdocs/wiki/iaas.de.md",
     "docs/best-practice/workflow-release-into-master.de.md",
     "mkdocs/mkdocs/templates.de.md",
     "mkdocs/mkdocs/python3.de.md",
     "mkdocs/mkdocs/plugins.de.md",
     "mkdocs/mkdocs/pip.de.md",
-    "mkdocs/mkdocs/install.de.md",
-    "mkdocs/mkdocs/commands.de.md",
-    "mkdocs/laravel/validation.de.md",
-    "mkdocs/laravel/tests.de.md",
-    "mkdocs/laravel/route.de.md",
-    "mkdocs/laravel/migrations.de.md",
-    "mkdocs/laravel/eloquent.de.md",
-    "mkdocs/laravel/collection.de.md",
-    "mkdocs/laravel/arr.de.md",
-    "mkdocs/github/issues-verlinken.de.md",
-    "mkdocs/github/git.de.md",
-    "mkdocs/composer/pest.de.md",
-    "mkdocs/clean-code/solid-design-principles.de.md",
-    "mkdocs/clean-code/boy-scouting-principle.de.md",
-    "mkdocs/best-practice/workflow-release-into-master.en.md",
-    "mkdocs/best-practice/workflow-release-into-master.de.md",
-    "mkdocs/best-practice/workflow-pull-request-splitting.en.md",
-    "mkdocs/best-practice/workflow-pull-request-splitting.de.md",
-    "mkdocs/best-practice/pull-request-splitting.de.md",
-    "mkdocs/best-practice/conventional-commits.de.md",
     "site/assets/images/favicon.png",
     "sites/assets/images/favicon.png"
   ]
